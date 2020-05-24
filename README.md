@@ -10,7 +10,7 @@ Requirements:
 
 
 
-#1. Finding the AAIs for each network
+# 1. Finding the AAIs for each network
 
 Included in this folder are a series of **helper codes** for construction of training and testing datasets for both the Decision Tree 
 as well as the Support Vector Machine Models. The scripts are not intended to function as standalone units, rather they are meant 
@@ -60,11 +60,11 @@ functionalities. _avg_auc_plot.ipynb_ has the plot of the avgerage AUC values an
 in these two IPYNB files. These files can be treated as the proof of execution. 
  
 
-#2. Finding optimal AAIs using decision tree
+# 2. Finding optimal AAIs using decision tree
 
 <!-- instructions to execute code -->
 
-#3. Finding complementary AAIs using SVM
+# 3. Finding complementary AAIs using SVM
 
 	(a) Go to "3 Finding complementary AAIs with SVM\output\"
 
@@ -80,4 +80,4 @@ in these two IPYNB files. These files can be treated as the proof of execution.
 
 	The proof of execution has been provided inside both the folders.
 
-#4. Finding composite AAI
+# 4. Finding composite AAI
