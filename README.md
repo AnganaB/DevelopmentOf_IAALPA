@@ -83,7 +83,7 @@ in these two IPYNB files. These files can be treated as the proof of execution.
 
 	The proof of execution has been provided inside both the folders.
 
-**Note: the edgelist used in step (a) should correspond to the network for which we are finding the optimal and complementary AAIs**
+**Note: The edgelist used in step (a) should correspond to the network for which we are finding the optimal and complementary AAIs.**
 
 The different AAIs are denoted using the following numbers:
 S1 -> 0 , S2 -> 1,..., S25 -> 24
