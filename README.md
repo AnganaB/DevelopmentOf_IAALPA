@@ -36,9 +36,11 @@ passing the appropriate parameter values. For eg,
 >Index S22 is defined as _rwa_ with _a=1, b=1, c=1, rho=4, phi=1_ 
 >This is computed by 
 >
->`def s22(pair,graph):
+>```python
+>def s22(pair,graph):
 >   s = rwa(pair,graph,1,1,1,4,1)
->   return s`
+>   return s
+>```
 
 All the functions in this file take a _node pair_ and a _**networkx** graph_ as mandatory inputs.
 
