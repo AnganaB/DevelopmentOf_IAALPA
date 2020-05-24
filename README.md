@@ -85,14 +85,11 @@ in these two IPYNB files. These files can be treated as the proof of execution.
 
 **Note: the edgelist used in step (a) should correspond to the network for which we are finding the optimal and complementary AAIs**
 The different AAIs are denoted using the following numbers:
---------------------------------------
-Algorithm or AAi	|	Index/Number
---------------------------------------
-S1					|	0
-S2					|	1
-.					|	.
-.					|	.
-.					|	.
-S25					|	24
+S1	|	0
+S2	|	1
+.	|	.
+.	|	.
+.	|	.
+S25	|	24
 
 # 4. Finding composite AAI
