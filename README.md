@@ -37,8 +37,8 @@ passing the appropriate parameter values. For eg,
 >This is computed by 
 >
 >`def s22(pair,graph):
-    s = rwa(pair,graph,1,1,1,4,1)
-    return s`
+>   s = rwa(pair,graph,1,1,1,4,1)
+>   return s`
 
 All the functions in this file take a _node pair_ and a _**networkx** graph_ as mandatory inputs.
 
