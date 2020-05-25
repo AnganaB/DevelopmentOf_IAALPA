@@ -1,4 +1,4 @@
-Note: Please do not disrupt the directory structure while executing the codes.
+**Note: Please do not disrupt the directory structure while executing the codes.**
 
 For a clearer view of this README file go to https://github.com/manjitborah2710/DevelopmentOf_IAALPA
 
