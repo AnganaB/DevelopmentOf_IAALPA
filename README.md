@@ -95,7 +95,7 @@ The code for preparing the training dataset is placed inside **"3 Finding comple
 > res=auc_new.main("sample.csv")
 >```
 
-Please note that the **auc_new.py** file must be in the same directory as **prepare_train_data_for_svm.py**. There is no need to run **auc_new.py**, this file is imported in **prepare_train_data_for_svm.py** as a module and acts as a helper code for its successful execution.
+Please note that the **auc_new.py** file must be in the same directory as **prepare_train_data_for_svm.py**. There is no need to run **auc_new.py**, this file is imported in **prepare_train_data_for_svm.py** as a module and acts as a helper code for its successful execution. After the execution of this file, a file **train_sample.csv** is produced. Run this code a few times on different networks to generate train samples. As mentioned in the report, to balance the number of complementary and non-complementary AAI pairs for unbiased training of the SVM, each of the generated train samples are filtered manually and finally merged. SVM is then trained on this merged dataset.
 
 The proof of execution has been provided inside folders **output** and **svm_train**. Since the **dataset_preparation** folder consists only of helper code and won't generate any console I/O, the execution of the files is not shown.
 
