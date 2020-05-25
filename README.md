@@ -78,10 +78,10 @@ in these two IPYNB files. These files can be treated as the proof of execution.
 
 	1. The egonet training and test datasets are stored in "data/train" and "data/test" respectively. 
 	2. "prepare_data.py" is used to build the dataset for training the Decision Tree. The train dataset prepared contains the 5 network features mentioned in the literature along with the best AAI decision as the target variable. The test dataset contains only the 5 network features. The target is to be predicted using the DT model built and validated against the actual results to calculate the accuracy.
-	4. Run "C4.5_train.py" to train the DT model on the train dataset. Dataset is stored in test directory.
-	5. Run "C4.5_test_prediction.py" for predicting the best AAI for the "sample_test.csv" file. A sample_test data is stored in "tests\" directory.
+	3. Run "C4.5_train.py" to train the DT model on the train dataset. Dataset is stored in test directory.
+	4. Run "C4.5_test_prediction.py" for predicting the best AAI for the "sample_test.csv" file. A sample_test data is stored in "tests\" directory.
 	Metrics like feature importance and accuracy are found. Per network prediction is also computed. The proof of execution is provide in the "Results\" directory. 
-	6. The formed decision tree is stored in "outputs/rules" directory.
+	5. The formed decision tree is stored in "outputs/rules" directory.
 
 # 3. Finding complementary AAIs using SVM
 
