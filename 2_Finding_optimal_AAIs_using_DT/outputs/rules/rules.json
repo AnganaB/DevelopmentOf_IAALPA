@@ -1,0 +1,305 @@
+[
+   {
+      "current_level": 1,
+      "leaf_id": "1ffb5918-9e82-11ea-8913-3052cb305316",
+      "parents": "root",
+      "rule": "else: return 'WA3'",
+      "feature_idx": -1,
+      "instances": 19,
+      "metric": 0
+   }
+
+,    {
+      "current_level": 1,
+      "leaf_id": "208ff0b4-9e82-11ea-b31c-3052cb305316",
+      "parents": "root",
+      "rule": "if obj[1]<=0.6567280329999999:",
+      "feature_idx": 1,
+      "instances": 19,
+      "metric": 1.7798299876761599
+   }
+
+,    {
+      "current_level": 2,
+      "leaf_id": "20960a50-9e82-11ea-87a3-3052cb305316",
+      "parents": "208ff0b4-9e82-11ea-b31c-3052cb305316",
+      "rule": "else: return 'RWA'",
+      "feature_idx": -1,
+      "instances": 16,
+      "metric": 0
+   }
+
+,    {
+      "current_level": 2,
+      "leaf_id": "21271bae-9e82-11ea-9ad2-3052cb305316",
+      "parents": "208ff0b4-9e82-11ea-b31c-3052cb305316",
+      "rule": "if obj[4]>0.001963384:",
+      "feature_idx": 4,
+      "instances": 16,
+      "metric": 1.4197367178034825
+   }
+
+,    {
+      "current_level": 3,
+      "leaf_id": "212baee8-9e82-11ea-a60f-3052cb305316",
+      "parents": "21271bae-9e82-11ea-9ad2-3052cb305316",
+      "rule": "else: return 'WA2'",
+      "feature_idx": -1,
+      "instances": 15,
+      "metric": 0
+   }
+
+,    {
+      "current_level": 3,
+      "leaf_id": "21e6bf78-9e82-11ea-b8e5-3052cb305316",
+      "parents": "21271bae-9e82-11ea-9ad2-3052cb305316",
+      "rule": "if obj[0]<=6.0975609760000005:",
+      "feature_idx": 0,
+      "instances": 15,
+      "metric": 1.3382689280764646
+   }
+
+,    {
+      "current_level": 4,
+      "leaf_id": "21ef22b4-9e82-11ea-ad63-3052cb305316",
+      "parents": "21e6bf78-9e82-11ea-b8e5-3052cb305316",
+      "rule": "else: return 'RA'",
+      "feature_idx": -1,
+      "instances": 11,
+      "metric": 0
+   }
+
+,    {
+      "current_level": 4,
+      "leaf_id": "229d8376-9e82-11ea-9cce-3052cb305316",
+      "parents": "21e6bf78-9e82-11ea-b8e5-3052cb305316",
+      "rule": "if obj[2]<=1.8268292680000002:",
+      "feature_idx": 2,
+      "instances": 11,
+      "metric": 1.0957952550009338
+   }
+
+,    {
+      "current_level": 5,
+      "leaf_id": "22a01a54-9e82-11ea-9948-3052cb305316",
+      "parents": "229d8376-9e82-11ea-9cce-3052cb305316",
+      "rule": "else: return 'RA'",
+      "feature_idx": -1,
+      "instances": 10,
+      "metric": 0
+   }
+
+,    {
+      "current_level": 5,
+      "leaf_id": "232ecb38-9e82-11ea-88ab-3052cb305316",
+      "parents": "229d8376-9e82-11ea-9cce-3052cb305316",
+      "rule": "if obj[3]<=219631423.1:",
+      "feature_idx": 3,
+      "instances": 10,
+      "metric": 1.1567796494470395
+   }
+   , {
+      "current_level": 6,
+      "leaf_id": "232f4058-9e82-11ea-87c1-3052cb305316",
+      "parents": "232ecb38-9e82-11ea-88ab-3052cb305316",
+      "rule": "return 'RA'",
+      "feature_idx": 3,
+      "instances": 10,
+      "metric": 0
+   }
+
+,    {
+      "current_level": 4,
+      "leaf_id": "241130ae-9e82-11ea-95fb-3052cb305316",
+      "parents": "21e6bf78-9e82-11ea-b8e5-3052cb305316",
+      "rule": "if obj[2]>1.8268292680000002:",
+      "feature_idx": 2,
+      "instances": 11,
+      "metric": 1.0957952550009338
+   }
+   , {
+      "current_level": 5,
+      "leaf_id": "24117eca-9e82-11ea-9ad8-3052cb305316",
+      "parents": "241130ae-9e82-11ea-95fb-3052cb305316",
+      "rule": "return 'RA'",
+      "feature_idx": 2,
+      "instances": 11,
+      "metric": 0
+   }
+
+,    {
+      "current_level": 3,
+      "leaf_id": "2428f414-9e82-11ea-a589-3052cb305316",
+      "parents": "21271bae-9e82-11ea-9ad2-3052cb305316",
+      "rule": "if obj[0]>6.0975609760000005:",
+      "feature_idx": 0,
+      "instances": 15,
+      "metric": 1.3382689280764646
+   }
+
+,    {
+      "current_level": 4,
+      "leaf_id": "242b6592-9e82-11ea-82ca-3052cb305316",
+      "parents": "2428f414-9e82-11ea-a589-3052cb305316",
+      "rule": "else: return 'WA2'",
+      "feature_idx": -1,
+      "instances": 4,
+      "metric": 0
+   }
+
+,    {
+      "current_level": 4,
+      "leaf_id": "25140c3e-9e82-11ea-9c40-3052cb305316",
+      "parents": "2428f414-9e82-11ea-a589-3052cb305316",
+      "rule": "if obj[2]<=1.8268292680000002:",
+      "feature_idx": 2,
+      "instances": 4,
+      "metric": 0.8112781244591328
+   }
+
+,    {
+      "current_level": 5,
+      "leaf_id": "2517dc3e-9e82-11ea-a2c2-3052cb305316",
+      "parents": "25140c3e-9e82-11ea-9c40-3052cb305316",
+      "rule": "else: return 'WA2'",
+      "feature_idx": -1,
+      "instances": 4,
+      "metric": 0
+   }
+
+,    {
+      "current_level": 5,
+      "leaf_id": "25bd56ee-9e82-11ea-aab3-3052cb305316",
+      "parents": "25140c3e-9e82-11ea-9c40-3052cb305316",
+      "rule": "if obj[3]<=219631423.1:",
+      "feature_idx": 3,
+      "instances": 4,
+      "metric": 0.8112781244591328
+   }
+   , {
+      "current_level": 6,
+      "leaf_id": "25bda50a-9e82-11ea-951d-3052cb305316",
+      "parents": "25bd56ee-9e82-11ea-aab3-3052cb305316",
+      "rule": "return 'WA2'",
+      "feature_idx": 3,
+      "instances": 4,
+      "metric": 0
+   }
+
+,    {
+      "current_level": 2,
+      "leaf_id": "25eda1b6-9e82-11ea-b275-3052cb305316",
+      "parents": "208ff0b4-9e82-11ea-b31c-3052cb305316",
+      "rule": "if obj[4]<=0.001963384:",
+      "feature_idx": 4,
+      "instances": 16,
+      "metric": 1.4197367178034825
+   }
+   , {
+      "current_level": 3,
+      "leaf_id": "25edef12-9e82-11ea-b300-3052cb305316",
+      "parents": "25eda1b6-9e82-11ea-b275-3052cb305316",
+      "rule": "return 'RWA'",
+      "feature_idx": 4,
+      "instances": 16,
+      "metric": 0
+   }
+
+,    {
+      "current_level": 1,
+      "leaf_id": "260e5738-9e82-11ea-879c-3052cb305316",
+      "parents": "root",
+      "rule": "if obj[1]>0.6567280329999999:",
+      "feature_idx": 1,
+      "instances": 19,
+      "metric": 1.7798299876761599
+   }
+
+,    {
+      "current_level": 2,
+      "leaf_id": "26129d34-9e82-11ea-91b4-3052cb305316",
+      "parents": "260e5738-9e82-11ea-879c-3052cb305316",
+      "rule": "else: return 'WA3'",
+      "feature_idx": -1,
+      "instances": 3,
+      "metric": 0
+   }
+
+,    {
+      "current_level": 2,
+      "leaf_id": "26c38ed2-9e82-11ea-a9ac-3052cb305316",
+      "parents": "260e5738-9e82-11ea-879c-3052cb305316",
+      "rule": "if obj[2]<=1.8268292680000002:",
+      "feature_idx": 2,
+      "instances": 3,
+      "metric": 0.9182958340544896
+   }
+
+,    {
+      "current_level": 3,
+      "leaf_id": "26c7d3fa-9e82-11ea-b11b-3052cb305316",
+      "parents": "26c38ed2-9e82-11ea-a9ac-3052cb305316",
+      "rule": "else: return 'WA2'",
+      "feature_idx": -1,
+      "instances": 2,
+      "metric": 0
+   }
+
+,    {
+      "current_level": 3,
+      "leaf_id": "275258dc-9e82-11ea-b573-3052cb305316",
+      "parents": "26c38ed2-9e82-11ea-a9ac-3052cb305316",
+      "rule": "if obj[3]>219631423.1:",
+      "feature_idx": 3,
+      "instances": 2,
+      "metric": 1.0
+   }
+   , {
+      "current_level": 4,
+      "leaf_id": "2752cdde-9e82-11ea-ba88-3052cb305316",
+      "parents": "275258dc-9e82-11ea-b573-3052cb305316",
+      "rule": "return 'WA3'",
+      "feature_idx": 3,
+      "instances": 2,
+      "metric": 0
+   }
+
+,    {
+      "current_level": 3,
+      "leaf_id": "2756530c-9e82-11ea-afae-3052cb305316",
+      "parents": "26c38ed2-9e82-11ea-a9ac-3052cb305316",
+      "rule": "if obj[3]<=219631423.1:",
+      "feature_idx": 3,
+      "instances": 2,
+      "metric": 1.0
+   }
+   , {
+      "current_level": 4,
+      "leaf_id": "2756a11e-9e82-11ea-afef-3052cb305316",
+      "parents": "2756530c-9e82-11ea-afae-3052cb305316",
+      "rule": "return 'WA2'",
+      "feature_idx": 3,
+      "instances": 2,
+      "metric": 0
+   }
+
+,    {
+      "current_level": 2,
+      "leaf_id": "2776430a-9e82-11ea-aad2-3052cb305316",
+      "parents": "260e5738-9e82-11ea-879c-3052cb305316",
+      "rule": "if obj[2]>1.8268292680000002:",
+      "feature_idx": 2,
+      "instances": 3,
+      "metric": 0.9182958340544896
+   }
+   , {
+      "current_level": 3,
+      "leaf_id": "2776de64-9e82-11ea-94e0-3052cb305316",
+      "parents": "2776430a-9e82-11ea-aad2-3052cb305316",
+      "rule": "return 'WA3'",
+      "feature_idx": 2,
+      "instances": 3,
+      "metric": 0
+   }
+
+]
