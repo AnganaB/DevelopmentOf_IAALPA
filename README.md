@@ -86,7 +86,9 @@ After the completion of step (c), we get pairs of AAI and a value 1 or -1 alongs
 The training dataset for the SVM is located in **"3 Finding complementary AAIs with SVM\svm_train\"**. The training has been carried out in the notebook **svm.ipynb**. To retrain the model, replace **svm_train.csv** with your own training set and execute all the cells of the IPython Notebook **svm.ipynb**. The model after exeution will be saved as **svm.pkl**.
 
 The code for preparing the training dataset is placed inside **"3 Finding complementary AAIs with SVM\dataset_preparation\"**. There are two files:
+
 **auc_new.py** - This is a slight alteration of the code **auc.py** mentioned in section _1. Finding the AAIs for each network_. This file is imported in the next code.
+
 **prepare_train_data_for_svm.py** - This is the main code that will generate a training sample for the SVM given a network. This preparation is done based on random sampling from the node pairs of the network edgelist provided in .csv format. To specify the network from which the training sample is to be prepared, before running the code, replace the path to the csv edgelist in the following line of this file:
 
 >```python
