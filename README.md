@@ -54,7 +54,7 @@ functions in the file with several other helper functions.
 
 >_getNetworkAUC(csvfile)_ takes in a CSV file _(.csv format)_ and returns a list of 25 AUC for 25 differrent AAI values.
 >_getBestAUC(csvfile)_ takes in a CSV file _(.csv format)_ and returns the index of the best AAI based on the best AUC value.
->_getComplementaryAAI(csvfile)_ takes in a CSV file _(.csv format)_ and the _index of the best AAI_ and returns a list of 
+>_getComplementaryAAI(csvfile, best_index)_ takes in a CSV file _(.csv format)_ and the _index of the best AAI_ and returns a list of 
 the complementary AAIs based on the best AAI.
 
 The file has comments that describe in detail what all the other functions do.
