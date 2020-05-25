@@ -1,14 +1,23 @@
 **Note: Please do not disrupt the directory structure while executing the codes.**
 
-For a clearer view of this README file go to https://github.com/manjitborah2710/DevelopmentOf_IAALPA
+We may update this README in future. Please get an updated copy of the same using the following link.
 
-Requirements:
+For a clearer and updated view of this README file go to https://github.com/manjitborah2710/DevelopmentOf_IAALPA
 
-<!-- 
+**Requirements:**
 
-		Requried libraries
+`Python 3.5 or higher`
+`Jupyter Notebook`
 
- -->
+Libraries required:
+`Networkx`
+`Pandas`
+`Numpy`
+`Sklearn`
+`Chefboost`
+`Matplotlib`
+`Pickle`
+`Scipy`
 
 
 
