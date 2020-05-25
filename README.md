@@ -117,3 +117,8 @@ Please refer to the literature followed for this project to have a full understa
 Also please note that the edgelist in csv format must contain only 2 columns the **Source** and **Target** respectively.
 
 # 4. Finding composite AAI
+
+**composite.py** has a function _getCompositeAAI_ which takes input parameters _node pair, networkx graph, best index value, complementary 
+indices list,_ and,_all the AUC values for the AAIs_. This function can be used to compute the composite index.
+
+_composite.ipynb_ is the Jupyter notebook implementation. 
