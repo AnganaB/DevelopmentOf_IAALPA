@@ -73,7 +73,7 @@ in these two IPYNB files. These files can be treated as the proof of execution.
 
 Go to **"3 Finding complementary AAIs with SVM\output\"** and carry out the following operations:
 
-	(a) Run "1 GenerateDataFrame.py" and provide the path to the edgelist (prepared in CSV format) as the command-line argument. This generates a file "Dataset.csv".
+	(a) Run "1 GenerateDataFrame.py" and provide the path to the edgelist (prepared in CSV format) as the command-line argument. This generates a file "Dataset.csv". A sample dataset has been provided in the folder.
 
 	(b) Run "2 prepare_test_sample_for_svm.py" and provide as the command-line arguments the path to the dataset produced as the output of (a) (Dataset.csv) and the optimal AAI index (starting from 0) for this network obtained from the results of the Decision Tree. This generates a file "test_sample.csv".
 
@@ -83,7 +83,7 @@ Go to **"3 Finding complementary AAIs with SVM\output\"** and carry out the foll
 
 After the completion of step (c), we get pairs of AAI and a value 1 or -1 alongside them representing whether they are complementary or not respectively.
 
-The training dataset for the SVM is located in **"3 Finding complementary AAIs with SVM\svm_train\"**. The training has been carried out in the notebook **svm.ipynb**. To retrain the model, replace **svm_train.csv** with your own training set and execute all the cells of the IPython Notebook **svm.ipynb**. The model after exeution will be saved as **svm.pkl**.
+The training dataset for the SVM is located in **"3 Finding complementary AAIs with SVM\svm_train\"**. The file **svm_train.csv** is used for the training and has been carried out in the notebook **svm.ipynb**. To retrain the model, replace **svm_train.csv** with your own training set and execute all the cells of the IPython Notebook **svm.ipynb**. The model after exeution will be saved as **svm.pkl**.
 
 The code for preparing the training dataset is placed inside **"3 Finding complementary AAIs with SVM\dataset_preparation\"**. There are two files:
 
