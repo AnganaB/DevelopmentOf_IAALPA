@@ -100,7 +100,9 @@ Please note that the **auc_new.py** file must be in the same directory as **prep
 The proof of execution has been provided inside folders **output** and **svm_train**. Since the **dataset_preparation** folder consists only of helper code and won't generate any console I/O, the execution of the files is not shown.
 
 **Important**
+
 The index for the different AAIs are mentioned in the following table:
+
 | AAI | Index|
 | --- | ---|
 | S1  | 0  |
@@ -110,6 +112,8 @@ The index for the different AAIs are mentioned in the following table:
 | S25 | 24 |
 
 
-Please refer to the literature followed for this project to have a full understanding of the algorithms **S1,S2,S3...,S25**. Also please note that the edgelist in csv format must contain only 2 columns the **Source** and **Target** respectively.
+Please refer to the literature followed for this project to have a full understanding of the algorithms **S1,S2,S3...,S25**.
+
+Also please note that the edgelist in csv format must contain only 2 columns the **Source** and **Target** respectively.
 
 # 4. Finding composite AAI
