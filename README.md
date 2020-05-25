@@ -73,7 +73,7 @@ in these two IPYNB files. These files can be treated as the proof of execution.
 
 Go to **"3 Finding complementary AAIs with SVM\output\"** and carry out the following operations:
 
-	(a) Run "1 GenerateDataFrame.py" and provide the path to the edgelist (prepared in CSV format) as the command-line argument. This generated a file "Dataset.csv".
+	(a) Run "1 GenerateDataFrame.py" and provide the path to the edgelist (prepared in CSV format) as the command-line argument. This generates a file "Dataset.csv".
 
 	(b) Run "2 prepare_test_sample_for_svm.py" and provide as the command-line arguments the path to the dataset produced as the output of (a) (Dataset.csv) and the optimal AAI index (starting from 0) for this network obtained from the results of the Decision Tree. This generates a file "test_sample.csv".
 
