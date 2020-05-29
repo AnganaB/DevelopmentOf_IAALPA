@@ -80,8 +80,23 @@ in these two IPYNB files. These files can be treated as the proof of execution.
 	2. "prepare_data.py" is used to build the dataset for training the Decision Tree. The train dataset prepared contains the 5 network features mentioned in the literature along with the best AAI decision as the target variable. The test dataset contains only the 5 network features. The target is to be predicted using the DT model built and validated against the actual results to calculate the accuracy.
 	3. Run "C4.5_train.py" to train the DT model on the train dataset. Dataset is stored in test directory.
 	4. Run "C4.5_test_prediction.py" for predicting the best AAI for the "sample_test.csv" file. A sample_test data is stored in "tests\" directory.
-	Metrics like feature importance and accuracy are found. Per network prediction is also computed. The proof of execution is provide in the "Results\" directory. 
+	Metrics like feature importance and accuracy are found. Per network prediction is also computed.  
 	5. The formed decision tree is stored in "outputs/rules" directory.
+
+The Decision Tree algorithm used for the above implementation is __C4.5 Decision Tree__. This is a very useful DT because it is well versed with both numerical and non-numerical features. It calculates entropy and gain ratio for determining feature importances. Thus, it performs much better than the traditional ID3 DT.
+
+__prepare_data.py__ : This is the code for preparation of Decision Tree training and testing datasets. It takes in the files(with .csv extension) mentioned in 1 and computes network features for each file separately. Note that each file represents a specific network, so per network features are computed. The features computed are: _Average Degree_, _Average Clustering Coefficient_, _Average Shortest Path_, _Average Node Betweenness_ and _Average Link Betweenness_. These features act as independent variables for the Decision tree.
+This file also takes in the ouput of the **auc.py** file for finding the best AAI for each network. The best AAI is the one having the highest AUC value (explained in detail in the first section). The AAI value is the dependent variable for the Decision tree. 
+_For preparation of training dataset_, the AAI value is incorporated to train the DT. _For preparation of testing dataset_, remove the last column that is the AAI value, so that the DT can predict the best AAI. 
+After running prepare_data.py, a training and testing dataset is generated for the DT. Also, note that in the datasets, the best AAI values are under the column _Decision_.
+
+__C4.5_train.py__ : This is the code for training the DT. Metrics like feature importance of the independent variables are computed (while training the DT).
+
+__C4.5_test_prediciton__ : This is the code for training the DT. The DT predicts the best AAI for a given network. We have tested the DT against a sample test file stored as "_tests/sample_test.csv"_ file. 
+
+The built Decision Tree is stored in the _"outputs/rules"_ directory as _"rules.py"_ file, in the form of python if-statements. 
+The proof of execution is provided in the _"Results\"_ directory.
+
 
 # 3. Finding complementary AAIs using SVM
 
